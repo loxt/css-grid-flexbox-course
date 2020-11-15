@@ -8,6 +8,29 @@
   --color-dark: #212121;
 }
 
+.button {
+  background-color: var(--color-secondary);
+  padding: .5rem 3rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: .5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border: none;
+  color: var(--color-white);
+}
+
+.container {
+  margin: 1rem auto 3rem auto;
+  max-width: 1200px;
+  padding: 2rem ;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+}
+
 html {
   box-sizing: border-box;
 }
