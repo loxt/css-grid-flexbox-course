@@ -63,3 +63,42 @@ nav ul a {
     margin-bottom: 0;
   }
 }
+
+/* Nav with icons */
+.icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icons ul li {
+  flex: 0 0 100%;
+}
+
+@media (min-width: 480px) {
+  .icons ul li {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .icons ul li {
+    flex: 0 0 25%;
+  }
+}
+
+.icons ul li a {
+  display: flex;
+  flex: 0 0 100%;
+}
+
+.icons .icon {
+  font-size: 2rem;
+  flex: 0 0 3rem;
+}
+
+.icons .text span {
+  display: flex;
+  margin-top: .5rem;
+  font-size: .8rem;
+}
