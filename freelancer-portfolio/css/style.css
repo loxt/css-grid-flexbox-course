@@ -1,36 +1,54 @@
 :root {
-    --mainFont: 'Staatliches', cursive;
-    --primary: #f1a94e;
-    --secondary: #44b3c2;
-    --light: #ffffff;
+  --mainFont: "Staatliches", cursive;
+  --primary: #f1a94e;
+  --secondary: #44b3c2;
+  --light: #ffffff;
 }
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 body {
-    font-family: var(--mainFont);
+  font-family: var(--mainFont);
 }
 .container {
-    max-width: 1100px;
-    width: 90%;
-    margin: 0 auto;
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 h1 {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 h2 {
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 }
 h3 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 p {
-    font-size: 1.2rem;  
-    line-height: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.hero {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  color: var(--light);
+  text-transform: uppercase;
+}
+
+.hero .container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 0.5rem;
+  align-content: center;
+  text-align: center;
 }
