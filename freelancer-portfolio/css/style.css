@@ -79,6 +79,27 @@ p {
   color: var(--secondary);
 }
 
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.item:nth-child(3) {
+  grid-row-end: span 2;
+}
+
+.portfolio h3::after {
+  height: 0.25rem;
+  width: 2rem;
+  background-color: var(--primary);
+  content: '';
+  display: block;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
 .footer {
   background-image: url('../img/contact.jpg');
   background-size: cover;
