@@ -1,5 +1,5 @@
 :root {
-  --mainFont: "Staatliches", cursive;
+  --mainFont: 'Staatliches', cursive;
   --primary: #f1a94e;
   --secondary: #44b3c2;
   --light: #ffffff;
@@ -38,7 +38,7 @@ p {
 }
 
 .hero {
-  background-image: url("../img/bg.jpg");
+  background-image: url('../img/bg.jpg');
   background-size: cover;
   color: var(--light);
   text-transform: uppercase;
@@ -68,7 +68,7 @@ p {
   height: 0.5rem;
   width: 7rem;
   background-color: var(--primary);
-  content: "";
+  content: '';
   display: block;
   border-radius: 1rem;
   margin: 1rem auto 0 auto;
@@ -80,7 +80,7 @@ p {
 }
 
 .footer {
-  background-image: url("../img/contact.jpg");
+  background-image: url('../img/contact.jpg');
   background-size: cover;
   margin-top: 3rem;
   padding: 2rem 0;
