@@ -52,3 +52,29 @@ p {
   align-content: center;
   text-align: center;
 }
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 3rem;
+}
+
+.service {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.service h2::after {
+  height: 0.5rem;
+  width: 7rem;
+  background-color: var(--primary);
+  content: "";
+  display: block;
+  border-radius: 1rem;
+  margin: 1rem auto 0 auto;
+}
+
+.service i {
+  font-size: 3rem;
+  color: var(--secondary);
+}
