@@ -225,3 +225,72 @@ main > section {
   font-size: 1rem;
 }
 
+.footer {
+  border-top: 1px solid #dbdbdb;
+  padding: 3rem 0;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.nav-footer .menu {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, auto);
+  grid-row-gap: .5rem;
+}
+
+.nav-footer .menu a {
+  color: var(--dark);
+  text-decoration: none;
+  display: block;
+  font-size: .9rem;
+}
+
+.nav-footer h3 {
+  font-size: 1.2rem;
+}
+
+.nav-footer .menu .new {
+  background-color: rgb(0, 119, 126);
+  margin-left: 1rem;
+  padding: .2rem .4rem;
+  color: var(--light);
+  border-radius: 5px;
+}
+
+.social-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.social-nav a {
+  text-decoration: none;
+}
+
+.social-nav a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.social-nav a::before {
+  font-family: "Font Awesome 5 Brands";
+  color: var(--dark);
+  font-size: 1.8rem;
+}
+
+.social-nav a[href*="facebook.com"]::before {
+  content: '\f39e';
+}
+
+.social-nav a[href*="instagram.com"]::before {
+  content: '\f16d';
+}
+
+.social-nav a[href*="twitter.com"]::before {
+  content: '\f099';
+}
+
+.social-nav a span {
+  display: none;
+}
