@@ -157,3 +157,39 @@ img {
   border-radius: 5px;
   border: none;
 }
+
+main > section {
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card img {
+  width: 100%;
+}
+
+.countries .card {
+  position: relative;
+}
+
+.countries .info {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  color: var(--light);
+  text-align: center;
+  font-weight: bold;
+}
+
+.countries .info .title {
+  font-size: 1.4rem;
+}
+
+.countries .info .price {
+  font-size: 1rem;
+}
+
