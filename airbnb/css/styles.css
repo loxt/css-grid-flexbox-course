@@ -14,6 +14,23 @@ html {
 body {
   font-family: var(--mainFont);
 }
+
+.lodgement {
+  color: #274154;
+}
+
+.concert {
+  color: #DA595E;
+}
+
+.class {
+  color: #598DDA;
+}
+
+.outdoor-activity {
+  color: #940AD4;
+}
+
 h1 {
   font-weight: 700;
   font-size: 2rem;
@@ -172,6 +189,22 @@ main > section {
   width: 100%;
 }
 
+.card .category {
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.card .title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.card .price {
+  font-size: .9rem;
+}
+
 .countries .card {
   position: relative;
 }
@@ -182,14 +215,13 @@ main > section {
   bottom: 1rem;
   color: var(--light);
   text-align: center;
-  font-weight: bold;
 }
 
-.countries .info .title {
+.countries .title {
   font-size: 1.4rem;
 }
 
-.countries .info .price {
+.countries .price {
   font-size: 1rem;
 }
 
